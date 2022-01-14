@@ -1,0 +1,66 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 32px;
+}
+
+
+h1 {
+    flex: 0 1 auto;
+    text-align: center;
+    margin: 42px;
+}
+
+.content {
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    gap: 10px;
+    align-items: center;
+    flex: 1 1 auto;
+    margin-bottom: 48px;
+}
+
+.selection, .score, .cpuselect, .winner, .humanselect{
+    font-size: 32px;
+}
+
+.selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    height: 200px;
+    border: 3px blueviolet solid;
+    flex: 1 1 auto;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.cpuselect, .winner, .humanselect {
+    flex: 0 1 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.score{
+    flex: 0 1 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+}
+
+.scoresub {
+    display: flex;
+    gap: 16px;
+}
